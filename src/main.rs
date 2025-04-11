@@ -26,12 +26,12 @@ fn main() {
 
         if choice >5 {
             println!("bro pikir dia think outside the box.");
-            break;
+            continue;
         }
 
         if choice ==0 {
             println!("bro pikir dia think outside the box.");
-            break;
+            continue;
         }
         println!("Masukkan angka pertama:");
         let mut num1= String::new();
@@ -73,7 +73,7 @@ fn main() {
 
             4=> {
                 if num2 != 0.0 {
-                    let result = num1 * num2;
+                    let result = num1 / num2;
                     println!("Hasil: {}", result);
                 } else {
                     println!("gabisa bro, pusing gw jadinya.");
